@@ -1,11 +1,10 @@
 :root {
     --bg-dark: #1A2F3A;
 
-    --logo-height: 100px;
+    --logo-height: 150px;
     --header-height: 100px;
-    --aside-width: 225px;
-    --footer-height: 40px;
-
+    --aside-width: 25px;
+    --footer-height: 35px;
     --shadow:
         0 2px 23px 0 rgba(0, 0, 0, 0.1),
         0 2px 49px 0 rgba(0, 0, 0, 0.06);
@@ -22,7 +21,8 @@
     grid-template-columns: var(--aside-width) 1rf;
     grid-template-rows:
         var(--header-height)
-        1frvar(var(--footer-height));
+        1fr
+        var(--footer-height);
     grid-template-areas:
         "logo header"
         "menu content"
