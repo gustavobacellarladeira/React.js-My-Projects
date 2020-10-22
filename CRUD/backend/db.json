@@ -1,24 +1,9 @@
 {
   "users": [
     {
-      "name": "test 1",
-      "email": "test1@gmail.com",
-      "id": 1
-    },
-    {
-      "name": "test 2",
-      "email": "test2@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "test 3 ",
-      "email": "test3@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "test4",
-      "email": "tes4@gmail.com",
-      "id": 4
+      "name": "paulo ferreira",
+      "email": "paulo_ferreira@gmail.com",
+      "id": 6
     }
   ]
 }
