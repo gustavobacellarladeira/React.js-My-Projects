@@ -1,0 +1,18 @@
+.jumbo {
+    background-image: url('../../assets/pexels-markus-spiske-1089438.jpg');
+    background-size: cover;
+    color: #ccc;
+    height: 200px;
+    position: relative;
+    z-index: -2;
+}
+.overlay{
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
